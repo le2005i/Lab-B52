@@ -34,10 +34,6 @@ You are required to develop a `books_donation` application. Through this applica
 
      - `getBook(String name)`: Returns the `Book` object if found, otherwise throws an exception.
      - `getBooksByPageCount(int pageCount)`: Returns all books with page counts greater than or equal to the given count.
-<<<<<<< HEAD
-     - `getBooksByCategory(String category)`: Returns all books from the specified category.
-=======
->>>>>>> 149620a0736315308974cdf6ec85d41641ae8c0e
      - `getAuthorsBookCount()`: Returns a map with author names as keys and the count of books they have authored as values.
 4. **Extension Methods on `List<Book>`**
 
@@ -89,11 +85,7 @@ You are required to implement a banking system with the following requirements. 
      - Add methods to log transactions for accounts where detailed transaction history is needed.
      - Apply the mixin to the `SavingsAccount` class.
    - Methods:
-<<<<<<< HEAD
-     - `logTransaction(String description)`: logs a transaction.
-=======
      - `logTransaction(AccountTransaction transaction)`: logs a transaction.
->>>>>>> 149620a0736315308974cdf6ec85d41641ae8c0e
      - `printTransactionLog()`: prints all the logged transactions for the account.
 5. **SavingsAccount and CurrentAccount Classes**
 
@@ -105,15 +97,9 @@ You are required to implement a banking system with the following requirements. 
        - **Methods**:
          - `applyProfit()`: A method that calculates the account holder’s share of profits based on the `profitSharingRatio` and applies it to the balance.
          - `calculateProfit(double totalProfit)`: A method to set the `investmentProfit` and calculate the account holder’s share.
-<<<<<<< HEAD
-     XX- **CurrentAccount**:
-       - **Properties**:
-         - `overdraftLimit`: a `double` representing the maximum amount the account can go into overdraft.
-=======
      - **CurrentAccount**:
        - **Properties**:
          - `overdraftLimit`: a `double` representing the maximum amount the account can go into overdraft. [You can use 1000 as the limit]
->>>>>>> 149620a0736315308974cdf6ec85d41641ae8c0e
          - `overdraftFee`: a `double` representing the fee applied when the account goes into overdraft.
          - `overdraftProtection`: a `bool` flag to indicate if overdraft protection is enabled.
        - **Methods**:
