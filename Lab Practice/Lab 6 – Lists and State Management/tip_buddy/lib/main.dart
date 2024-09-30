@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:tip_buddy/home_page.dart';
+import 'dart:ui';
 
 void main() {
   runApp(const MyApp());

@@ -10,6 +10,7 @@ class TipCalculator extends StatefulWidget {
 class _TipCalculatorState extends State<TipCalculator> {
   final TextEditingController _controller = TextEditingController();
   final int _tipPercentage = 0;
+  var _billamount;
 
   final tips = [10, 20, 30];
 
@@ -31,7 +32,7 @@ class _TipCalculatorState extends State<TipCalculator> {
           const SizedBox(height: 20),
           TextField(
             controller: _controller,
-            onChanged: _calculateTip,
+            onChanged: (value){},
             decoration: const InputDecoration(
               border: OutlineInputBorder(),
               labelText: 'Bill amount',
@@ -59,6 +60,7 @@ class _TipCalculatorState extends State<TipCalculator> {
 
                 onChanged: (value) {
                   // TODO: Implement the on Changed method
+
                 },
               )),
           Row(
