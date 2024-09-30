@@ -1,5 +1,5 @@
-name: into_app
-description: 'A new Flutter project.'
+name: stadium_app
+description: 'Qatar 2022 Stadiums App'
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
@@ -58,8 +58,8 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
-    - images/
-  #   - images/a_dot_ham.jpeg
+    - assets/images/
+    - assets/data/stadiums.json
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images
